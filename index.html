@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>IoP French Reports | Internet of People</title>
+        <base href="~" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Main -->
+                    <div id="main">
+
+                    </div>
+
+                <!-- Sidebar -->
+                    <section id="sidebar">
+
+                        <!-- Intro -->
+                            <section id="intro">
+                                <a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+                                <header>
+                                    <h2>Internet of People</h2>
+                                    <h3>IoP French Reports</h3>
+                                    <p>Le portail français d'Internet of People : l'infrastructure pour des apps et paiments décentralisés.</a></p>
+                                </header>
+                            </section>
+
+                        <!-- Mini Posts -->
+                            <section>
+                                <div class="mini-posts">
+                                </div>
+                            </section>
+
+                        <!-- Posts List -->
+                            <section>
+                                <ul class="posts">
+                                </ul>
+                            </section>
+
+                        <!-- About -->
+                            <section class="blurb">
+                                <h2>En savoir plus</h2>
+                                <p>
+                                    Internet of People (IoP) est une infrastructure complète pour les applications et les paiements complètement décentralisé et basé sur des nœuds (la blockchain) pouvant fonctionner sur des ordinateurs personnels ou même sur des appareils plus petits comme un Raspberry Pi ou un smartphone.
+                                </p>
+                                <p>
+                                    La crypto-monnaie IoP est une devise utilisée pour les paiements sur le réseau IoP. Il accorde également à ses détenteurs une part dans Internet of People en tant qu'organisation autonome décentralisée (DAO).
+                                </p>
+                                <p>
+                                    IoP French Reports est la source officielle des actualités sur l'Internet of People en français.<br>
+                                    Afin d'en savoir plus sur le projet, n'hésitez pas à rejoindre les différents médias et réseaux sociaux disponibles :
+                                </p>
+                                <ul class="icons">
+                                    <li><a href="https://iop.global" class="fa-globe"><span class="label">iop.global</span><span class="description">Site officiel (EN)</span></a></li>
+                                    <li><a href="https://github.com/Internet-of-People" class="fa-github"><span class="label">Github</span><span class="description">Github</span></a></li>
+                                    <li><a href="https://coinmarketcap.com/currencies/internet-of-people" class="fa-usd"><span class="label">coinmarketcap</span><span class="description"> CoinMarketCap IOP<span class="description"></span></a></li>
+                                    <li><a href="https://twitter.com/iop_france" class="fa-twitter"><span class="label">Twitter</span><span class="description">Twitter IOP Community France (FR)</span></a></li>
+                                    <li><a href="https://discord.gg/gsRKp6T" class="fa-comments"><span class="label">Discord</span><span class="description">Chat Discord (EN,FR)</span></a></li>
+                                    <li><a href="https://t.me/IoPofficial" class="fa-telegram"><span class="label">Discord</span><span class="description">Groupe Telegram officiel (EN)</span></a></li>
+                                </ul>
+                            </section>
+
+                        <!-- Footer -->
+                            <section id="footer">
+                                <p class="copyright">&copy; IoP French Reports. Design by <a href="http://html5up.net">HTML5 UP</a>.
+                            </section>
+
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="assets/js/main.js"></script>
+            <script src="articles/previews.js"></script>
+
+            <script>
+                console.log(previews);
+
+                $.each(previews, function(i, item) {
+                    console.log(i);
+                    var post;
+
+                    if (i < 5) {
+                        post = '\
+                            <article class="post">\
+                                <header>\
+                                    <div class="title">\
+                                        <h2><a href="' + item.url +'">' + item.title +'</a></h2>\
+                                        <p>' + item.subtitle +'</p>\
+                                    </div>\
+                                    <div class="meta">\
+                                        <time class="published" datetime="' + item.datetime +'">' + item.datetext +'</time>\
+                                    </div>\
+                                </header>\
+                                <a href="#" class="image featured"><img src="' + item.url +'/cover.jpg" alt="" /></a>\
+                                <p>' + item.brief +'</p>\
+                                <footer>\
+                                    <ul class="actions">\
+                                        <li><a href="' + item.url +'" class="button big">Continue Reading</a></li>\
+                                    </ul>\
+                                </footer>\
+                            </article>';
+
+                        $("#main").append(post);
+
+                    } else {
+
+                        post = '\
+                            <article class="mini-post">\
+                                <header>\
+                                    <h3><a href="' + item.url +'">' + item.title +'</a></h3>\
+                                    <time class="published" datetime="' + item.datetime +'">' + item.datetext +'</time>\
+                                </header>\
+                                <a href="' + item.url +'" class="image"><img src="' + item.url +'/cover.jpg" alt="" /></a>\
+                            </article>';
+
+                        $(".mini-posts").append(post);
+                    }
+
+                    /*} else {
+
+                        post = '\
+                            <li>\
+                                <article>\
+                                    <header>\
+                                        <h3><a href="' + item.url +'">' + item.title +'</a></h3>\
+                                        <time class="published" datetime="' + item.datetime +'">' + item.datetext +'</time>\
+                                    </header>\
+                                    <a href="' + item.url +'" class="image"><img src="' + item.image +'" alt="" /></a>\
+                                </article>\
+                            </li>';
+
+                        $(".posts").append(post);
+
+                    }*/
+
+                });
+                
+            </script>
+
+    </body>
+</html>
