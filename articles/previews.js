@@ -40,15 +40,7 @@ var previews = [
     "datetime":"2017-10-09",
     "datetext":"9 septembre 2017",
     "title":"Rapport de transparence #2",
-    "subtitle":"",
-    "brief":""
-  },
-  {
-    "url":"./articles/20171008-developpement-rapport-transparence-1",
-    "datetime":"2017-10-08",
-    "datetext":"8 octobre 2017",
-    "title":"Développement & rapport de transparence #1",
-    "subtitle":"",
+    "subtitle":"Par Markus Maiwald - Fondateur du projet Libertaria",
     "brief":""
   },
   {
@@ -57,6 +49,14 @@ var previews = [
     "datetext":"05 octobre 2017",
     "title":"Vidéo - La communauté d'abord | People Power #4",
     "subtitle":"",
+    "brief":""
+  },
+  {
+    "url":"./articles/20170930-developpement-rapport-transparence-1",
+    "datetime":"2017-09-30",
+    "datetext":"30 septembre 2017",
+    "title":"Développement & rapport de transparence #1",
+    "subtitle":"Par Markus Maiwald - Fondateur du projet Libertaria",
     "brief":""
   },
   {
