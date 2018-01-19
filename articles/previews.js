@@ -12,6 +12,18 @@ var previews = [
         [...]"
   },
   {
+    "url":"articles/20180101-2018-annee-internet-of-people",
+    "datetime":"2018-01-01",
+    "datetext":"1 janvier 2018",
+    "title":"Est-ce que 2018 est l’année d’Internet Of People ?",
+    "subtitle":"Par Juan Manuel Cancino Pérez - IoP Deputy Community Leader",
+    "brief":"\
+        L’une des définitions qui me plait le plus dans l’histoire est celle-ci : “L’étude du passé pour comprendre le présent et être capable de concevoir un avenir meilleur”. Le présent de la communauté IoP peut être compris à travers ce qui nous est arrivé au cours de l’excitante année 2017 qui vient de s’achever.\
+        <br><br>\
+        Une crise qui a amené la communauté à prendre en charge le projet afin d’atteindre ses objectifs. Un réseau de plus de 100 chapitres parmi lesquels seulement 12 ont été consacrés à la reconstruction d’une communauté blessée. Une équipe de développeurs engagés dans la réussite du projet, l’équipe leader du projet Libertaria naissant qui a soutenu la réorganisation et les finances, ainsi que les quelques investisseurs qui avaient confiance dans\
+        [...]"
+  },
+  {
     "url":"articles/20171221-disponibilite-titania-os-1-0-rc2-chapters",
     "datetime":"2017-12-21",
     "datetext":"21 décembre 2017",
