@@ -20,10 +20,10 @@ var previews = [
     "brief":""
   },
   {
-    "url":"articles/20171208-sortie-wallet-iop-version-6-1-0",
+    "url":"articles/20171208-arrivee-wallet-iop-version-6-1-0",
     "datetime":"2017-12-08",
     "datetext":"8 décembre 2017",
-    "title":"Disponibilité du wallet IoP en version 6.1.0",
+    "title":"Arrivée du wallet IoP en version 6.1.0",
     "subtitle":"",
     "brief":""
   },
