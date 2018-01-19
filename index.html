@@ -95,10 +95,12 @@
             <script src="articles/previews.js"></script>
 
             <script>
-                $.each(previews, function(i, item) {
-                    var post;
+                var nbLargePreview = 3;
+                var post;
 
-                    if (i < 4) {
+                $.each(previews, function(i, item) {
+
+                    if (i < nbLargePreview) {
                         post = '\
                             <article class="post">\
                                 <header>\
@@ -120,6 +122,14 @@
                             </article>';
 
                         $("#main").append(post);
+
+                        if (i == nbLargePreview-1) {
+
+                            $("#main").append('\
+                                <ul class="actions">\
+                                    <li><a href="#" class="button big"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></li>\
+                                </ul>');
+                        }
 
                     } else {
 

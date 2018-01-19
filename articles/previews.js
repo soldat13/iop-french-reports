@@ -24,14 +24,6 @@ var previews = [
         [...]"
   },
   {
-    "url":"articles/20171221-disponibilite-titania-os-1-0-rc2-chapters",
-    "datetime":"2017-12-21",
-    "datetext":"21 décembre 2017",
-    "title":"Disponibilité de Titania OS 1.0 RC2 pour les Chapters",
-    "subtitle":"",
-    "brief":""
-  },
-  {
     "url":"articles/20171204-wallet-iop-version-6-1-0",
     "datetime":"2017-12-04",
     "datetext":"4 décembre 2017",
