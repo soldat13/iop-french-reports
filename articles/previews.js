@@ -32,18 +32,21 @@ var previews = [
     "brief":""
   },
   {
-    "url":"articles/20171208-arrivee-wallet-iop-version-6-1-0",
-    "datetime":"2017-12-08",
-    "datetext":"8 décembre 2017",
+    "url":"articles/20171204-wallet-iop-version-6-1-0",
+    "datetime":"2017-12-04",
+    "datetext":"4 décembre 2017",
     "title":"Arrivée du wallet IoP en version 6.1.0",
-    "subtitle":"",
-    "brief":""
+    "subtitle":"Nouveaux thèmes et mise à jour de la blockchain depuis Bitcoin Core 0.15",
+    "brief":"\
+        Le portefeuille IoP (Core Wallet) vient d'être mis à jour en version 6.1.0 !<br><br>\
+        Les clients sont téléchargeables dès aujourd'hui\
+        [...]"
   },
   {
-    "url":"articles/20171104-mise-a-jour-majeure-iop-blockchain",
-    "datetime":"2017-11-04",
-    "datetext":"4 novembre 2017",
-    "title":"Mise à jour majeure de la blockchain",
+    "url":"articles/20171021-mise-a-jour-majeure-iop-core-6-0-0",
+    "datetime":"2017-10-21",
+    "datetext":"21 octobre 2017",
+    "title":"Mise à jour majeure de IoP Core en version 6.0.0",
     "subtitle":"",
     "brief":""
   },
