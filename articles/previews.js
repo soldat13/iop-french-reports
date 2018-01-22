@@ -90,4 +90,12 @@ var previews = [
     "subtitle":"",
     "brief":""
   },
+  {
+    "url":"articles/20170702-internet-of-people-blockchain-decentralise",
+    "datetime":"2017-07-02",
+    "datetext":"2 juillet 2017",
+    "title":"Internet of People : la blockchain pour un internet décentralisé",
+    "subtitle":"",
+    "brief":""
+  },
 ];
