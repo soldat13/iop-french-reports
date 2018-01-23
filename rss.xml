@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>IoP French Reports | Internet of People</title>
+    <description>Le portail français d'Internet of People : l'infrastructure pour des apps et paiements décentralisés.</description>
+    <link>http://www.iop-france.org</link>
+    <language>fr</language>
+    <copyright>IoP French Reports</copyright>
+    <atom:link href="http://www.iop-france.org/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Internet of People : la blockchain pour un internet décentralisé</title>
+      <link>http://www.iop-france.org/articles/20170702-internet-of-people-blockchain-decentralise</link>
+      <guid>http://www.iop-france.org/articles/20170702-internet-of-people-blockchain-decentralise</guid>
+      <description></description>
+      <pubDate>Sun, 02 Jul 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Vidéo - Un internet décentralisé | People Power #1</title>
+        <link>http://www.iop-france.org/articles/20170706-video-people-power-1-internet-decentralise</link>
+        <guid>http://www.iop-france.org/articles/20170706-video-people-power-1-internet-decentralise</guid>
+        <description></description>
+        <pubDate>Thu, 06 Jul 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Vidéo - Cas d'utilisation P2P : taxi et rencontres | People Power #2</title>
+        <link>http://www.iop-france.org/articles/20170720-video-people-power-2-p2p-taxi-rencontres</link>
+        <guid>http://www.iop-france.org/articles/20170720-video-people-power-2-p2p-taxi-rencontres</guid>
+        <description></description>
+        <pubDate>Thu, 20 Jul 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Vidéo - Possédez vos données | People Power #3</title>
+        <link>http://www.iop-france.org/articles/20170803-video-people-power-3-possedez-donnees</link>
+        <guid>http://www.iop-france.org/articles/20170803-video-people-power-3-possedez-donnees</guid>
+        <description></description>
+        <pubDate>Thu, 03 Aug 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Développement &amp; rapport de transparence #1</title>
+        <link>http://www.iop-france.org/articles/20170930-developpement-rapport-transparence-1</link>
+        <guid>http://www.iop-france.org/articles/20170930-developpement-rapport-transparence-1</guid>
+        <description></description>
+        <pubDate>Sat, 30 Sep 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Vidéo - La communauté d'abord | People Power #4</title>
+        <link>http://www.iop-france.org/articles/20171005-video-people-power-4-communaute</link>
+        <guid>http://www.iop-france.org/articles/20171005-video-people-power-4-communaute</guid>
+        <description></description>
+        <pubDate>Thu, 05 Oct 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Rapport de transparence #2</title>
+        <link>http://www.iop-france.org/articles/20171009-rapport-transparence-2</link>
+        <guid>http://www.iop-france.org/articles/20171009-rapport-transparence-2</guid>
+        <description></description>
+        <pubDate>Mon, 09 Oct 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Mise à jour majeure de IoP Core en version 6.0.0</title>
+        <link>http://www.iop-france.org/articles/20171021-mise-a-jour-majeure-iop-core-6-0-0</link>
+        <guid>http://www.iop-france.org/articles/20171021-mise-a-jour-majeure-iop-core-6-0-0</guid>
+        <description></description>
+        <pubDate>Sat, 21 Oct 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Arrivée du wallet IoP en version 6.1.0</title>
+        <link>http://www.iop-france.org/articles/20171204-wallet-iop-version-6-1-0</link>
+        <guid>http://www.iop-france.org/articles/20171204-wallet-iop-version-6-1-0</guid>
+        <description></description>
+        <pubDate>Mon, 04 Dec 2017 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Est-ce que 2018 est l’année d’Internet Of People ?</title>
+        <link>http://www.iop-france.org/articles/20180101-2018-annee-internet-of-people</link>
+        <guid>http://www.iop-france.org/articles/20180101-2018-annee-internet-of-people</guid>
+        <description></description>
+        <pubDate>Mon, 01 Jan 2018 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Rapport de transparence #3</title>
+        <link>http://www.iop-france.org/articles/20180114-rapport-transparence-3</link>
+        <guid>http://www.iop-france.org/articles/20180114-rapport-transparence-3</guid>
+        <description></description>
+        <pubDate>Sun, 14 Jan 2018 07:00:00 +0000</pubDate>
+    </item>
+
+</channel>
+</rss>
